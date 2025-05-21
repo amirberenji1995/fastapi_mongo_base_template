@@ -1,0 +1,17 @@
+[project]
+name = "example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "beanie>=1.29.0",
+    "fastapi>=0.115.12",
+    "fastapi-mongo-base>=0.10.0",
+    "json-advanced>=0.12.7",
+    "pydantic>=2.11.4",
+    "python-dotenv>=1.1.0",
+    "singleton-package>=0.6.0",
+    "uvicorn>=0.34.2",
+]
